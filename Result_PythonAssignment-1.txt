@@ -1,0 +1,161 @@
+## Assignment Part-1
+Q1. Why do we call Python as a general purpose and high-level programming language?
+
+Python is a general purpose and high level programming language bec it is not written in machine readable form. Python program
+need to be processed before machine can run them. Python is an interpreted language. When program is run, its interpreter runs 
+through the code and convert it into machine readable byte code.	
+
+Q2. Why is Python called a dynamically typed language?
+
+Python is called a dynamically typed language bec type checking take place at run/execution time.
+
+Q3. List some pros and cons of Python programming language?
+Proc: Python is easy to learn
+      Python enhance productivity
+      Python has a vast collection of libraries
+      Python is free and open source
+      Python is an interpreted language
+
+Cons: Python has speed limitation
+      Python is not so strong with mobile computation 
+      Python can have run time error
+      Python consumes a lot of memory space
+
+Q4. In what all domains can we use Python?
+
+    Artificial intelligence, machine learning and deeplearning, data engineering 
+
+Q5. What are variable and how can we declare them?
+    Varibale is the name allocated to memory that is a refernece or pointer to an object. Once an objectis assigned to a variable, we can
+refer to that object by that name. 
+Declare: X=50  x is name of the object 50.
+
+Q6. How can we take an input from the user in Python?
+    We can take input from user via input() function.
+    Example: name = input("Enter your name: ")
+
+Q7. What is the default datatype of the value that has been taken as an input using input() function?
+   
+    String
+    
+
+Q8. What is type casting?
+
+    to change data type of varibale we use casting such as int(), float()
+
+Q9. Can we take more than one input from the user using single input() function? If yes, how? If no, why?
+
+    no, we can take single input from user using single input function.
+
+Q10. What are keywords?
+
+     Keywords are special words in python what have specific meaning and purpose which can not be used for anythingbut those specific
+purposes.
+
+Q11. Can we use keywords as a variable? Support your answer with reason.
+
+     As keywords are special words which have specific meaning and used to define the syntax of the code. These keywords can not use
+as varibale name.
+
+Q12. What is indentation? What's the use of indentaion in Python?
+
+     Indentation is a block of space at the beginning of code line. we have to use same number of space in same blockof code otherwise
+python will give error.
+
+
+Q13. How can we throw some output in Python?
+
+     Print() function
+
+Q14. What are operators in Python?
+
+     Operator are used to perform operation on varibale and values. 
+
+     Arthimetic operator
+     Assignment operator
+     Comparision operator
+     Logical operator
+     
+
+Q15. What is difference between / and // operators?
+
+     / is division operator eg: 5/2=2.5
+     // is floor division operator eg: 5//2= 2
+
+Q16. Write a code that gives following as an output.
+```
+iNeuroniNeuroniNeuroniNeuron
+```
+x="iNeuron"*4
+Print(x)
+
+Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
+     
+# Take input from user and check whether it is odd or even
+number=int(input("Enter number"))
+if (number%2)==0:
+    print("Number is even")
+else:
+    print("Number is odd")  
+
+Q18. What are boolean operator?
+
+     Boolean operator is an expression that evaluate to either true or false.
+
+Q19. What will the output of the following?
+```
+1 or 0  = 1
+
+0 and 0 = 0
+
+True and False and True = False
+
+1 or 0 or 0 = 1
+```
+
+Q20. What are conditional statements in Python?
+
+  Condition statement is used to handle condition in program. Python have three conditional statement:
+  If
+  If-else
+  If-elif-else
+  
+
+Q21. What is use of 'if', 'elif' and 'else' keywords?
+
+If: The if statement is a conditional statement that is used to determine whether a block of code will be executed or not.
+
+If-else: the if statement executes the code block when the condition is true. Similarly, the else statement works in conjuncture 
+with the if statement to execute a code block when the defined if condition is false.
+
+if-elif-else: The elif statement is used to check for multiple conditions and execute the code block within if any of the conditions 
+evaluate to be true.
+
+Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
+
+# Take input from user as age and put some condition for vote
+
+Age=int(input("Enter your age"))
+if Age>=18:
+    print("I can vote")
+else:
+    print("I can not vote")   
+
+Q23. Write a code that displays the sum of all the even numbers from the given list.
+```
+numbers = [12, 75, 150, 180, 145, 525, 50]
+```
+
+
+Q24. Write a code to take 3 numbers as an input from the user and display the greatest no as output.
+
+Q25. Write a program to display only those numbers from a list that satisfy the following conditions
+
+- The number must be divisible by five
+
+- If the number is greater than 150, then skip it and move to the next number
+
+- If the number is greater than 500, then stop the loop
+```
+numbers = [12, 75, 150, 180, 145, 525, 50]
+```
